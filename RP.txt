@@ -1,0 +1,4 @@
+--- EX 1: ---
+
+O ficheiro json foi convertido em 2 ficheiros ("cidades.json" e "ligações.json").
+Foi criada uma collection na base de dados, com o nome do ficheiro, para cada um dos ficheiros.
