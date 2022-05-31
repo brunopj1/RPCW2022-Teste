@@ -1,4 +1,5 @@
 --- EX 1: ---
 
 O ficheiro json foi convertido em 2 ficheiros ("cidades.json" e "ligações.json").
+Os atributos "id" de ambos os datasets foram renomeados para "_id" e os acentos foram removidos dos nomes dos atributos.
 Foi criada uma collection na base de dados, com o nome do ficheiro, para cada um dos ficheiros.
