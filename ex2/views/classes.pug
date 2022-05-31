@@ -1,0 +1,17 @@
+extends layout
+
+block topbar
+  h1=title
+  button(onclick="goToHomepage()") Homepage
+
+block content
+  table.w3-table-all
+    tr
+      th Codigo
+      th Titulo
+    for c in classes
+      tr
+        td
+          a(href="/classes/c" + c.codigo)= c.codigo
+        td
+          a(href="/classes/c" + c.codigo)= c.titulo

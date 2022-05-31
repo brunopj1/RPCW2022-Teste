@@ -1,0 +1,27 @@
+extends layout
+
+block topbar
+  h1=title
+  button(onclick="goToHomepage()") Homepage
+
+block content
+  h2 Nivel:
+  p=classe.nivel
+
+  h2 Codigo:
+  p=classe.codigo
+
+  h2 Titulo:
+  p=classe.titulo
+
+  h2 Descricao:
+  p=classe.descricao
+
+  h2 Status:
+  p=status
+
+  h2 Pai:
+  h3 Codigo:
+  p=classe.pai.codigo
+  h3 Titulo:
+  p=classe.pai.titulo

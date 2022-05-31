@@ -1,0 +1,8 @@
+.topbar {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
